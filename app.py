@@ -13,7 +13,7 @@ st.set_page_config(page_title="Text to Speech Converter", layout="wide")
 st.title("Text to Speech Converter")
 
 # Initialize ElevenLabs client
-api_key = st.secret("ELEVENLABS_API_KEY")  # Store your API key in Streamlit secrets
+api_key = st.secrets("ELEVENLABS_API_KEY")  # Store your API key in Streamlit secrets
 
 
 client =ElevenLabs(api_key=api_key)
