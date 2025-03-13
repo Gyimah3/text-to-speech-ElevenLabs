@@ -1,2 +1,2 @@
 # test-to-speech-ElevenLabs
-Simple test to speech with srreamlit and elevenlabs
+Simple text to speech with streamlit and elevenlabs
